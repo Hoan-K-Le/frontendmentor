@@ -1,0 +1,64 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: pink;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  background: whitesmoke;
+  box-shadow: 0px 20px 10px rgba(0, 0, 0, 0.15);
+
+  width: 600px;
+  height: 400px;
+  padding: 40px 80px;
+}
+
+.top-word {
+  display: flex;
+  justify-content: space-between;
+}
+
+.definition {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.definition p {
+  margin: 20px 0;
+}
+
+.search {
+  margin-top: 30px;
+}
+button {
+  all: unset;
+  background: #999;
+  padding: 5px 30px;
+  color: #fff;
+  border-radius: 8px;
+  margin-left: -5px;
+  font-size: 20px;
+}
+
+input {
+  border: none;
+  padding: 5px 30px;
+  background: transparent;
+  border-bottom: 1px solid #999;
+  font-size: 20px;
+}
