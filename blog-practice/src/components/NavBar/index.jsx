@@ -5,7 +5,7 @@ const NavBar = () => {
     const [singlePosts, setSinglePosts] = useState(['Image Post', 'Gallery Post', 'Video Post', 'Audio Post'])
     const [pages, setPages] = useState(['Regular Page', '404 Page'])
   return (
-    <div className='p-8  text-sm font-medium shadow-2xl shadow-slate-200 justify-around flex'>
+    <div className='p-8 text-sm font-medium shadow-2xl shadow-slate-200 justify-around flex'>
         <div className='flex items-center gap-4 justify-around '>
             <button className='text-[#6f6fff]'>HOMEPAGE</button>
        <select className='w-[90px] text-center hover:text-[#6f6fff] cursor-pointer'>

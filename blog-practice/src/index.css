@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.header-title::after {
+   content: "";
+   display: block;
+
+}
+.header-title::after {
+    width: 700px;
+    padding: 20px;
+    border-bottom: 1px solid #999;
+    opacity: 0.3;
+}
+
+.header-description::after {
+    content: "";
+    display: block;
+ 
+}
+
+.header-description::after {
+    width: 17px;
+    padding-top: 20px;
+    border-bottom: 3px solid black;
+}
+
